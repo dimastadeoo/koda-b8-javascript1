@@ -47,3 +47,9 @@ const my = [
     }
 ]
 console.log(my[0].favourite[3].fruit.is)
+
+const num = {
+    first: [undefined, 30],
+    second: [undefined,undefined, 2]
+}
+console.log(num.first[1] + num.second[2])
