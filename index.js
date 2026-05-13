@@ -1,4 +1,4 @@
-let r = 21
+let r = "21"
 let phi
 
 if(typeof r !== "number"){
