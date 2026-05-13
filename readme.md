@@ -20,7 +20,7 @@ flowchart TD
 
     A-->B-->I-.Yes.->J-->D
     
-    I-.No.->C-->D-->E-->F-->G-->H
+    I-.No .->C-->D-->E-->F-->G-->H
 
 
 ```
