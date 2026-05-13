@@ -1,4 +1,4 @@
-const r = 20
+let r = 20
 const phi = 3.14
 const L = phi * r * r
 const K = 2 * phi * r
