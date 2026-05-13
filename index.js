@@ -4,4 +4,4 @@ const L = phi * r * r
 const K = 2 * phi * r
 
 console.log("Luas Lingkaran "+L)
-console.log("Keliling Lingkaran "+L)
+console.log("Keliling Lingkaran "+K)
