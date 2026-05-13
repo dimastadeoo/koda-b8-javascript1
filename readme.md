@@ -9,6 +9,8 @@ flowchart TD
     A@{ shape: circle, label: "Start" }
     
     B@{ shape: lean-r, label: "r" }
+    I@{ shape: diamond, label: "r%7 == 0" }
+    J@{ shape: rect, label: "phi = 22/7" }
     C@{ shape: rect, label: "phi = 3.14" }
     D@{ shape: rect, label: "L = phi * r * r" }
     E@{ shape: rect, label: "K = 2 * phi * r" }
@@ -16,10 +18,9 @@ flowchart TD
     G@{ shape: lean-r, label: '"Keliling Lingkaran {K}"' }
     H@{ shape: dbl-circ, label: "Stop" }
 
-    A-->B-->C-->D-->E-->F-->G-->H
+    A-->B-->I-.Yes.->J-->D
     
-
-
+    I-.No.->C-->D-->E-->F-->G-->H
 
 
 ```
