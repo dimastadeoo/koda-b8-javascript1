@@ -34,3 +34,16 @@ const obj = {
 }
 
 console.log(obj.str[3][1][2].man[0].tech.academy)
+
+const my = [
+    {
+        favourite: [
+            undefined,undefined,undefined,{
+                fruit: {
+                    is: "Apple"
+                }
+            }
+        ]
+    }
+]
+console.log(my[0].favourite[3].fruit.is)
