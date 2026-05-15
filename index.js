@@ -1,4 +1,3 @@
-let r
 let phi
 let L
 let K
