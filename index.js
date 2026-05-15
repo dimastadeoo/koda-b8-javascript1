@@ -1,19 +1,24 @@
-let r = 21
+let r
 let phi
+let L
+let K
 
-if(typeof r !== "number"){
-    console.log("Eror var R bukan number")
-    return
+function hitungLuasKelLing(r){
+    if(typeof r !== "number"){
+        console.log("Eror var R bukan number")
+        return
+    }
+
+    if (r%7 == 0){
+        phi = 22/7
+    }else{
+        phi = 3.14
+    }
+    L = phi * r * r
+    K = 2 * phi * r
+    console.log("Luas Lingkaran "+L)
+    console.log("Keliling Lingkaran "+K)
+
 }
 
-if (r%7 == 0){
-    phi = 22/7
-}else{
-    phi = 3.14
-}
-const L = phi * r * r
-const K = 2 * phi * r
-
-console.log("Luas Lingkaran "+L)
-console.log("Keliling Lingkaran "+K)
-
+hitungLuasKelLing(21)
